@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: midnightblue;
+    color: antiquewhite;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    margin-bottom: 1.8rem;
+    border-radius: 5rem;
+    width: 50%;
+    margin: 0 auto 2rem auto;
+    margin-top: 0.5rem;
+
+}
+img{
+    height: 10rem;
+    width: 10rem;
+    rotate: 90deg;
+    border-radius: 50%;
+}
+.user-choices{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.choices{
+    rotate: -90 deg;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.choice{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    opacity: 50%;
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.msg-cont{
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: center;
+}
+#msg{
+    font-size: 2.4rem;
+}
+
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    max-width: 50%;
+    margin: 2rem auto;
+    /* background-color: yellow ; */
+}
+.score-board p{
+    font-size: xx-large;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px black solid;
+    gap: 0.2rem;
+    padding: 0.7rem;
+    border-radius: 25%;
+    background-color: rgb(135, 222, 161);
+    width: 7rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.reset{
+    height: 3rem;
+    width: 6rem;
+    font-size: large;
+    border-radius: 15%;
+    background-color: black;
+    color: white;
+}
+.reset:hover{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    border: black solid 3px;
+}
+.reset:active{
+    transform: scale(0.8);
+}
